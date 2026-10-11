@@ -69,6 +69,6 @@ export const featuredProjects = projects.filter((project) => project.featured);
 export const additionalProjects = projects.filter((project) => !project.featured);
 
 export const projectPortfolio = {
-  totalDelivered: 7,
+  totalDelivered: 10,
   showcased: projects.length,
 } as const;

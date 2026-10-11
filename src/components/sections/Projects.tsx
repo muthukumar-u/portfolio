@@ -207,7 +207,7 @@ export default function Projects() {
             </p>
           </div>
           <p className="font-mono text-[9px] uppercase tracking-[0.13em] text-ink-muted">
-            0{featuredProjects.length} featured / 0
+            0{featuredProjects.length} featured /{" "}
             {projectPortfolio.totalDelivered}+ delivered
           </p>
         </Reveal>
